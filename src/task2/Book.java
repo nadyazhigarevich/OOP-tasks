@@ -23,7 +23,7 @@ public class Book {
         return pages;
     }
 
-    public void setAuthor() {
+    public void setAuthor(String author) {
         this.author = author;
     }
 
@@ -36,6 +36,6 @@ public class Book {
     }
 
     public void read() {
-        System.out.println("Reading " + title + " by " + author);
+        System.out.println("Reading " + this.title + " by " + this.author);
     }
 }

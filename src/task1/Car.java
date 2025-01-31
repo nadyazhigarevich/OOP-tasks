@@ -36,6 +36,6 @@ public class Car {
     }
 
     public void displayInfo() {
-        System.out.println("Make: " + make + "\nModel: " + model + "\nName: " + name);
+        System.out.println("Make: " + this.make + "\nModel: " + this.model + "\nName: " + this.name);
     }
 }
