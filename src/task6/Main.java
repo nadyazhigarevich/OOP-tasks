@@ -2,8 +2,8 @@ package task6;
 
 public class Main {
     public static void main(String[] args) {
-        Circle circle = new Circle();
-        Rectangle rectangle = new Rectangle();
+        Shape circle = new Circle();
+        Shape rectangle = new Rectangle();
 
         circle.draw();
         rectangle.draw();
